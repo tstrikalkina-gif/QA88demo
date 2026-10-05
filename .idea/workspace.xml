@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de1db5a2-7779-49b8-aa40-eccb66c830c5" name="Changes" comment="start1">
+    <list default="true" id="de1db5a2-7779-49b8-aa40-eccb66c830c5" name="Changes" comment="Xpath selectors">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_selectors_css.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_selectors_css.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,18 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "tstrikalkina-gif"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tstrikalkina-gif&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/tstrikalkina-gif/QA88demo.git",
-    "accountId": "34bc8f77-4ab7-4fa0-ab91-5b304e48c16b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tstrikalkina-gif/QA88demo.git&quot;,
+    &quot;accountId&quot;: &quot;34bc8f77-4ab7-4fa0-ab91-5b304e48c16b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
   &quot;fromUser&quot;: false
@@ -47,6 +48,7 @@
     "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCSS.test_selectors_css.executor": "Run",
     "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCSS.test_selectors_css_parts.executor": "Run",
     "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCSS.test_selectors_xpath.executor": "Run",
+    "Python tests.Python tests for tests.test_selectors_css.TestSelectorsCSS.test_selectors_xpath_parts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -61,7 +63,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCSS.test_selectors_xpath">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCSS.test_selectors_xpath_parts">
     <configuration name="Python tests for tests.test_selectors_css.TestSelectorsCSS" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA88demo" />
       <option name="ENV_FILES" value="" />
@@ -130,8 +132,26 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for tests.test_selectors_css.TestSelectorsCSS.test_selectors_xpath_parts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QA88demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_selectors_css.TestSelectorsCSS.test_selectors_xpath_parts&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCSS.test_selectors_xpath_parts" />
         <item itemvalue="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCSS.test_selectors_xpath" />
         <item itemvalue="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCSS.test_selectors_css_parts" />
         <item itemvalue="Python tests.Python tests for tests.test_selectors_css.TestSelectorsCSS" />
@@ -170,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790080127930</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Xpath selectors">
+      <option name="closed" value="true" />
+      <created>1790253162874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790253162874</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="start1" />
-    <option name="LAST_COMMIT_MESSAGE" value="start1" />
+    <MESSAGE value="Xpath selectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Xpath selectors" />
   </component>
 </project>

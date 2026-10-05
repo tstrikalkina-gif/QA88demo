@@ -136,3 +136,45 @@ class TestSelectorsCSS:
         div_output = driver.find_element(By.XPATH, "//div[@id='output']")
 
         assert "Monkey" in div_output.text
+
+    def test_selectors_xpath_parts(self, driver):
+        time.sleep(2)
+
+        ##div[class='category-cards']>a[href='/elements'] CSS
+        #//div[class='category-cards']>a[href='/elements'] XPATH
+        #//div[contains(@class, 'ory-cards')]/a[@href='/elements']
+        driver.find_element(By.XPATH, "//div[contains(@class, 'ory-cards')]/a[@href='/elements']").click()
+        time.sleep(2)
+        #//a[@href='/radio-button'] XPATH
+        #//*[starts-with(@href,'/radio-b')]
+        driver.find_element(By.XPATH, "//*[starts-with(@href,'/radio-b')]").click()
+        time.sleep(2)
+        # id="yesRadio" class="form-check-input"
+        #//input[@id='yesRadio' and @class='form-check-input']
+
+        driver.find_element(By.XPATH, "//input[@id='yesRadio' and @class='form-check-input']").click()
+
+        #//input[@id='impressiveRadio' or @class='from-check-input']
+        div_output = driver.find_element(By.XPATH, "//input[@id='impressiveRadio' or @class='from-check-input']").click()
+
+#//input[contains(@id,'yesRad') and starts-with(@class,'form-che')]
+
+        driver.find_element(By.XPATH, "//input[contains(@id,'yesRad') and starts-with(@class,'form-che')]").click()
+
+       # driver.find_element(By.LINK_TEXT,"/text-box").click()
+
+        driver.find_element(By.CSS_SELECTOR,
+                            "div[class='element-list accordion-collapse collapse show'] li:nth-child(2)>a").click()
+        time.sleep(2)
+
+
+       # div[class ='element-list accordion-collapse collapse show'] li:nth - child(2) > a
+        driver.find_element(By.XPATH, "//div[@class='element-list accordion-collapse collapse show']//li[3]/a").click()
+        # //label[text()='No']/../../div[1]/input
+        time.sleep(2)
+        driver.find_element(By.XPATH, "//label[text()='No']/../../div[1]/input").click()
+
+
+    def test_selectors_links(self, driver):
+        time.sleep(2)
+        driver.find_element(By.PARTIAL_LINK_TEXT, "elements").click()
